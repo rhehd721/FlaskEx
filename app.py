@@ -1,28 +1,26 @@
 import os
 from flask import Flask
-from flask_sqlalchemy import  SQLAlchemy
-
-basedir = os.path.abspath(os.path.dirname(__file__))  # 내 현재경로
-dbfile = os.path.join(basedir, "db.sqlite")     # 데이터베이스 경로
-
-print(basedir)
-print(dbfile)
+from flask import render_template
+from models import db   # 모델py 불러오기
 
 app = Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///'+dbfile
-app.config['SQLALCHEMY_COMMIT_ON_TEARDOWN'] = True      # 누군가가 정보를 요청하면 커밋을 하겠다.
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-
-db = SQLAlchemy(app)
-
-class Test(db.Model):
-    __tablename__ = 'test_table'
-    id = db.Column(db.Integer, primary_key = True)
-    name = db.Column(db.String(32), unique = True)
-
-db.create_all()
-
 @app.route('/')
 def hello():
-    return 'Hello World!'
+    return render_template('hello.html')
+
+if __name__ == "__main__":
+    print('hello')
+    basedir = os.path.abspath(os.path.dirname(__file__))
+    print('basedir:{}'.format(basedir))
+    dbfile = os.path.join(basedir, 'db.sqlite')
+    print('file:{}'.format(dbfile))
+
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + dbfile
+    app.config['SQLALCHEMY_COMMIT_ON_TEARDOWN'] = True
+    app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+
+    db.init_app(app)
+    db.app = app
+    db.create_all()
+    app.run(host='127.0.0.1', port = 5000, debug= True)
