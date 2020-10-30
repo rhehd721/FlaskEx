@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5d1b9c84-8324-4993-b432-eb4042daac05" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jZxoUDMiZ58OxlWoyvgQA5w0sP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../anaconda3/envs/flask/bin" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="FlaskEx" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d1b9c84-8324-4993-b432-eb4042daac05" name="Default Changelist" comment="" />
+      <created>1604025589858</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604025589858</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="916" y="492" width="424" height="491" key="FileChooserDialogImpl" timestamp="1604026175432">
+      <screen x="72" y="27" width="1278" height="956" />
+    </state>
+    <state x="916" y="492" width="424" height="491" key="FileChooserDialogImpl/72.27.1278.956@72.27.1278.956" timestamp="1604026175432" />
+    <state width="1091" height="227" key="GridCell.Tab.0.bottom" timestamp="1604025627631">
+      <screen x="72" y="27" width="1278" height="956" />
+    </state>
+    <state width="1091" height="227" key="GridCell.Tab.0.bottom/72.27.1278.956@72.27.1278.956" timestamp="1604025627631" />
+    <state width="1091" height="227" key="GridCell.Tab.0.center" timestamp="1604025627629">
+      <screen x="72" y="27" width="1278" height="956" />
+    </state>
+    <state width="1091" height="227" key="GridCell.Tab.0.center/72.27.1278.956@72.27.1278.956" timestamp="1604025627629" />
+    <state width="1091" height="227" key="GridCell.Tab.0.left" timestamp="1604025627629">
+      <screen x="72" y="27" width="1278" height="956" />
+    </state>
+    <state width="1091" height="227" key="GridCell.Tab.0.left/72.27.1278.956@72.27.1278.956" timestamp="1604025627629" />
+    <state width="1091" height="227" key="GridCell.Tab.0.right" timestamp="1604025627630">
+      <screen x="72" y="27" width="1278" height="956" />
+    </state>
+    <state width="1091" height="227" key="GridCell.Tab.0.right/72.27.1278.956@72.27.1278.956" timestamp="1604025627630" />
+    <state x="268" y="142" width="1022" height="737" key="SettingsEditor" timestamp="1604026373291">
+      <screen x="72" y="27" width="1730" height="956" />
+    </state>
+    <state x="217" y="142" width="1022" height="737" key="SettingsEditor/72.27.1278.956@72.27.1278.956" timestamp="1604026246228" />
+    <state x="268" y="142" key="SettingsEditor/72.27.1730.956@72.27.1730.956" timestamp="1604026373291" />
+  </component>
+</project>
